@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+    [NumOfAtt] INT  NOT NULL IDENTITY(1,1), 
+    [FIO] NVARCHAR(MAX) NOT NULL, 
+    [Status] NVARCHAR(MAX) NOT NULL, 
+    [Otdel] NVARCHAR(MAX) NOT NULL, 
+    [Phone] NVARCHAR(MAX) NOT NULL, 
+    [StatOfAtt] NVARCHAR(MAX) NOT NULL, 
+    [Time] NVARCHAR(MAX) NOT NULL, 
+    CONSTRAINT [PK_Table] PRIMARY KEY ([NumOfAtt]) 
+)
